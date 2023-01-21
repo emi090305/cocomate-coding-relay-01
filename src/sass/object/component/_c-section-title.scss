@@ -1,0 +1,13 @@
+@use "global" as *;
+
+.c-section-title {
+  display: inline-block;
+  font-size: rem(36);
+  font-weight: 700;
+  line-height: calc(54 / 36);
+  color: $orange;
+  @include mq(md) {
+    font-size: rem(48);
+    line-height: calc(72 / 48);
+  }
+}
