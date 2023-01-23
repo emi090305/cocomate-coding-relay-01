@@ -147,7 +147,6 @@ button {
   }
 }
 
-<<<<<<< HEAD
 .c-card {
   display: block;
   border: 1px solid rgba(0, 0, 0, .5);
@@ -190,8 +189,6 @@ button {
           flex-grow: 1;
 }
 
-=======
->>>>>>> origin/master
 .c-section-title {
   display: inline-block;
   font-size: 2.25rem;
