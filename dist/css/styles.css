@@ -149,7 +149,6 @@ button {
 
 .c-card {
   display: block;
-  width: 345px;
   border: 1px solid rgba(0, 0, 0, .5);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -181,6 +180,7 @@ button {
 }
 
 .c-card__text {
+  color: rgba(0, 0, 0, .8);
   font-size: 1.125rem;
   line-height: 1.667;
   margin-top: 1.5625rem;
