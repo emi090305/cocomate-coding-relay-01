@@ -1,0 +1,36 @@
+@use 'global' as *;
+
+.c-card {
+    display: block;
+    border: 1px solid $lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-card__img {
+    aspect-ratio: 345 / 220;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.c-card__body {
+    padding: rem(25) rem(20);
+    flex-grow: 1;
+}
+
+.c-card__head {
+    font-size: rem(24);
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.c-card__text {
+    color: $gray;
+    font-size: rem(18);
+    line-height: 1.667;
+    margin-top: rem(25);
+    flex-grow: 1;
+}
+
+

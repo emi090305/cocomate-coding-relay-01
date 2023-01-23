@@ -147,6 +147,51 @@ button {
   }
 }
 
+<<<<<<< HEAD
+.c-card {
+  display: block;
+  border: 1px solid rgba(0, 0, 0, .5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.c-card__img {
+  aspect-ratio: 345/220;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.c-card__body {
+  padding: 1.5625rem 1.25rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.c-card__head {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.c-card__text {
+  color: rgba(0, 0, 0, .8);
+  font-size: 1.125rem;
+  line-height: 1.667;
+  margin-top: 1.5625rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+=======
+>>>>>>> origin/master
 .c-section-title {
   display: inline-block;
   font-size: 2.25rem;
