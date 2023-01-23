@@ -1,0 +1,230 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+}
+@media (max-width: 375px) {
+  html {
+    font-size: 4.2666666667vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 1.3913043478vw;
+  }
+}
+@media (min-width: 1150px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  a,
+  button {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  a:hover,
+  button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}
+
+/*****************************
+* A Modern CSS Reset (https://github.com/hankchizljaw/modern-css-reset)
+* 上記に、ul要素,ol要素,a要素への記述追加
+*****************************/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd,
+ul,
+li {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  background-color: initial;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.l-inner {
+  width: 100%;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .l-inner {
+    max-width: 1150px;
+    padding-right: 1.5625rem;
+    padding-left: 1.5625rem;
+  }
+}
+
+.c-card {
+  display: block;
+  width: 345px;
+  border: 1px solid rgba(0, 0, 0, .5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.c-card__img {
+  aspect-ratio: 345/220;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.c-card__body {
+  padding: 1.5625rem 1.25rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.c-card__head {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.c-card__text {
+  font-size: 1.125rem;
+  line-height: 1.667;
+  margin-top: 1.5625rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.c-section-title {
+  display: inline-block;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #eb6100;
+}
+@media screen and (min-width: 768px) {
+  .c-section-title {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+}
+
+.p-test {
+  color: red;
+  font-size: 1.5625rem;
+}
+@media screen and (min-width: 768px) {
+  .p-test {
+    font-size: 3.125rem;
+  }
+}
+
+.u-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .u-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-mobile {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
