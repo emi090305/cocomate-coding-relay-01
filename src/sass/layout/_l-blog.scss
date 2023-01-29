@@ -1,0 +1,13 @@
+@use "global" as *;
+
+.l-blog {
+  max-width: rem(500);
+  padding-top: rem(52);
+  padding-bottom: rem(50);
+  margin-inline: auto;
+  @include mq(md) {
+    max-width: 100%;
+    padding-top: rem(120);
+    padding-bottom: rem(120);
+  }
+}
