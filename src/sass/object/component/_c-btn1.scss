@@ -1,0 +1,15 @@
+@use "global" as *;
+.c-btn1 {
+  padding:rem(15) rem(63);
+  min-width: rem(192);
+  text-align: center;
+  background-color: $orange;
+  border-radius: rem(6);
+  display: inline-block;
+  font-size: rem(16);
+  line-height: calc(24 / 16);
+  font-family:$font-main;
+  font-weight:500;
+  color: $white;
+  letter-spacing: -0.015em;
+}

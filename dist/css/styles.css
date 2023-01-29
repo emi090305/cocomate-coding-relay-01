@@ -147,6 +147,37 @@ button {
   }
 }
 
+.c-btn1 {
+  padding: 0.9375rem 3.9375rem;
+  min-width: 12rem;
+  text-align: center;
+  background-color: #eb6100;
+  border-radius: 0.375rem;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: -0.015em;
+}
+
+.c-btn2 {
+  padding: 0.9375rem 3.9375rem;
+  min-width: 12rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0.375rem;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #eb6100;
+  letter-spacing: -0.015em;
+  border: 1px solid #eb6100;
+}
+
 .c-card {
   display: block;
   border: 1px solid rgba(0, 0, 0, .5);
