@@ -132,20 +132,6 @@ button {
     scroll-behavior: auto !important;
   }
 }
-.l-blog {
-  max-width: 31.25rem;
-  padding-top: 3.25rem;
-  padding-bottom: 3.125rem;
-  margin-inline: auto;
-}
-@media screen and (min-width: 768px) {
-  .l-blog {
-    max-width: 100%;
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
-  }
-}
-
 .l-inner {
   width: 100%;
   padding-right: 1.25rem;
@@ -158,6 +144,20 @@ button {
     max-width: 1150px;
     padding-right: 1.5625rem;
     padding-left: 1.5625rem;
+  }
+}
+
+.l-section {
+  max-width: 31.25rem;
+  padding-top: 3.25rem;
+  padding-bottom: 3.125rem;
+  margin-inline: auto;
+}
+@media screen and (min-width: 768px) {
+  .l-section {
+    max-width: 100%;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
   }
 }
 
