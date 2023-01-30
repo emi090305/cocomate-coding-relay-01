@@ -1,0 +1,74 @@
+@use 'global' as *;
+
+.p-products {
+    background-color: $lightyellow;
+    padding-top: rem(50);
+    padding-bottom: rem(50);
+
+    @include mq('md') {
+        padding-top: rem(120);
+        padding-bottom: rem(120);
+    }
+}
+
+.p-products__container {
+    text-align: center;
+
+    @include mq('md') {
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.p-products__btn {
+    text-align: center;
+    margin-top: rem(50);
+
+    @include mq('md') {
+        text-align: left;
+        margin-top: rem(30);
+    }
+}
+
+.p-products__right {
+    display: flex;
+    flex-direction: column;
+    margin-top: rem(30);
+    
+    @include mq('md') {
+        margin-top: 0;
+        margin-left: rem(275);
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.p-products__card {
+
+    @include mq('md') {
+        max-width: rem(250);
+        margin-top: 0;
+    }
+}
+
+.p-products__card:nth-child(2n) {
+
+    @include mq('md') {
+        margin-left: rem(33);
+    }
+}
+
+.p-products__card:not(:first-child) {
+    margin-top: rem(25);
+
+    @include mq('md') {
+        margin-top: 0;
+    }
+}
+.p-products__card:nth-child(n + 3) {
+    
+    @include mq('md') {
+        margin-top: rem(25);
+    }
+}
