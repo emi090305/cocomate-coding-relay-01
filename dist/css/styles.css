@@ -309,14 +309,6 @@ button {
 
 .p-products {
   background-color: #fff9de;
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
-}
-@media screen and (min-width: 768px) {
-  .p-products {
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
-  }
 }
 
 .p-products__container {

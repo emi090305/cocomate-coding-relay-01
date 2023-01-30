@@ -2,13 +2,6 @@
 
 .p-products {
     background-color: $lightyellow;
-    padding-top: rem(50);
-    padding-bottom: rem(50);
-
-    @include mq('md') {
-        padding-top: rem(120);
-        padding-bottom: rem(120);
-    }
 }
 
 .p-products__container {
