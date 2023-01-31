@@ -17,6 +17,7 @@
 .c-card__body {
     padding: rem(25) rem(20);
     flex-grow: 1;
+    background-color: $white;
 }
 
 .c-card__head {
@@ -32,5 +33,4 @@
     margin-top: rem(25);
     flex-grow: 1;
 }
-
 
