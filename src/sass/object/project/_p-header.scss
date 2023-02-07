@@ -1,0 +1,13 @@
+@use "global" as *;
+
+.p-header {
+  background-color: $lightyellow;
+}
+
+.p-header__inner {
+  height: rem(60);
+  padding: 0 rem(20);
+  @include mq(md) {
+    padding: 0 rem(35);
+  }
+}

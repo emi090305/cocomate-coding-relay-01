@@ -1,0 +1,26 @@
+@use "global" as *;
+
+.p-nav__wrap {
+  display: flex;
+  height: inherit;
+}
+
+.p-nav__list {
+  font-size: rem(15);
+  font-weight: 500;
+  color: $orange;
+  height: inherit;
+}
+
+.p-nav__list + .p-nav__list {
+  margin-left: rem(13);
+  @include mq(md) {
+    margin-left: rem(23);
+  }
+}
+
+.p-nav__list a {
+  display: flex;
+  align-items: center;
+  height: inherit;
+}

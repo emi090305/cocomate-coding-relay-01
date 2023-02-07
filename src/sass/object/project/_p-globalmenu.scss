@@ -1,0 +1,24 @@
+@use "global" as *;
+
+.p-globalmenu {
+  display: flex;
+}
+
+.p-globalmenu__logo {
+  width: rem(82);
+  height: inherit;
+  @include mq(md) {
+    width: rem(122);
+  }
+}
+
+.p-globalmenu__logo a {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.p-globalmenu__nav {
+  height: inherit;
+  margin-left: auto;  
+}
