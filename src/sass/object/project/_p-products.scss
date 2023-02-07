@@ -5,13 +5,15 @@
 }
 
 .p-products__container {
-    text-align: center;
-
+    
     @include mq('md') {
-        text-align: left;
         display: flex;
         align-items: center;
     }
+}
+
+.p-products__title {
+    text-align: center;
 }
 
 .p-products__btn {
@@ -31,9 +33,10 @@
     
     @include mq('md') {
         margin-top: 0;
-        margin-left: rem(275);
+        margin-left: auto;
         flex-direction: row;
         flex-wrap: wrap;
+        max-width: rem(533);
     }
 }
 
