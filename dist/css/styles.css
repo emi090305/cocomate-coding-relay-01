@@ -536,6 +536,69 @@ button {
   }
 }
 
+.p-mv {
+  position: relative;
+  width: 100vw;
+  aspect-ratio: 375/960;
+  /* height: calc(100vh - 3.75rem); */
+}
+@media screen and (min-width: 768px) {
+  .p-mv {
+    aspect-ratio: 1440/960;
+  }
+}
+
+.p-mv__img {
+  width: 100%;
+  height: inherit;
+}
+
+.p-mv__img img {
+  width: 100%;
+  height: inherit;
+  aspect-ratio: 375/960;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (min-width: 768px) {
+  .p-mv__img img {
+    aspect-ratio: 1440/960;
+  }
+}
+
+.p-mv__body {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 1.25rem;
+}
+
+.p-mv__catchcopy {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: -0.0225rem;
+}
+@media screen and (min-width: 768px) {
+  .p-mv__catchcopy {
+    font-size: 3.5rem;
+    line-height: 1.4285714286;
+    letter-spacing: -0.0525rem;
+  }
+}
+
+.p-mv__btn {
+  margin-top: 1.875rem;
+}
+@media screen and (min-width: 768px) {
+  .p-mv__btn {
+    margin-top: 2.0625rem;
+  }
+}
+
 .u-desktop {
   display: none;
 }
