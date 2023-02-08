@@ -1,0 +1,62 @@
+@use 'global' as *;
+
+.p-mv {
+    position: relative;
+    width: 100vw;
+    aspect-ratio: 375 / 960;
+
+    @include mq('md') {
+        aspect-ratio: 1440 / 960;
+    }
+    
+
+    /* height: calc(100vh - #{rem(60)}); */
+}
+
+.p-mv__img {
+    width: 100%;
+    height: inherit;
+}
+
+.p-mv__img img {
+    width: 100%;
+    height: inherit;
+    aspect-ratio: 375 / 960;
+    object-fit: cover;
+
+    @include mq('md') {
+        aspect-ratio: 1440 / 960;
+    }
+}
+
+.p-mv__body {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    padding: rem(20);
+}
+
+.p-mv__catchcopy {
+    font-size: rem(24);
+    line-height: calc(36 / 24);
+    letter-spacing: rem(-0.36);
+
+    @include mq('md') {
+        font-size: rem(56);
+        line-height: calc(80 / 56);
+        letter-spacing: rem(-0.84);
+    }
+}
+
+.p-mv__btn {
+    margin-top: rem(30);
+
+    @include mq('md') {
+        margin-top: rem(33);
+    }
+    
+}
+
