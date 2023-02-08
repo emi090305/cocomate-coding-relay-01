@@ -2,14 +2,7 @@
 
 .p-mv {
     position: relative;
-    width: 100vw;
-    aspect-ratio: 375 / 960;
-
-    @include mq('md') {
-        aspect-ratio: 1440 / 960;
-    }
     
-
     /* height: calc(100vh - #{rem(60)}); */
 }
 

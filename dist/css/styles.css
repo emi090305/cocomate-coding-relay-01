@@ -538,14 +538,7 @@ button {
 
 .p-mv {
   position: relative;
-  width: 100vw;
-  aspect-ratio: 375/960;
   /* height: calc(100vh - 3.75rem); */
-}
-@media screen and (min-width: 768px) {
-  .p-mv {
-    aspect-ratio: 1440/960;
-  }
 }
 
 .p-mv__img {
