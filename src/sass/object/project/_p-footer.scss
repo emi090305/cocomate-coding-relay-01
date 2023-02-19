@@ -1,0 +1,42 @@
+@use "global" as *;
+.p-footer {
+  padding-top: rem(60);
+  padding-bottom: rem(50);
+  background-color: #fff9de;
+}
+.p-footer__logo {
+  width: rem(122);
+  margin: 0 auto;
+}
+
+.p-footer__nav-list {
+  margin-top: rem(24);
+  @include mq("md") {
+    display: flex;
+    justify-content: center;
+    margin-top:rem(40);
+  }
+}
+.p-footer__nav-item a {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: calc(24 / 15);
+  color: $orange;
+  padding: ren(6) 0;
+  @include mq("md") {
+    padding: 0 rem(12);
+  }
+}
+.p-footer__copyright {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  @include mq("md") {
+    margin-top:rem(40);
+    margin-top:2.2rem;
+    line-height: calc(24 / 15);
+    font-size: rem(15);
+  }
+}
